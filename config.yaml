@@ -1,0 +1,19 @@
+credentials:
+  usernames:
+    beatit:
+      email: deofis2015@gmail.com
+      logged_in: False # Will be managed automatically
+      name: beatit
+      password: 'abc123' # Will be hashed automatically
+cookie:
+  expiry_days: 30
+  key: cookie_signature_key # Must be string
+  name: cookie_name
+
+  services:
+  - type: web
+    name: digital-health-ecommerce
+    runtime: python
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
