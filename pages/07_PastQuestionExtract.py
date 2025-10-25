@@ -413,7 +413,7 @@ def main():
                 st.metric("Questions with Marks", questions_with_marks)
             with col4:
                 unique_syllabus_areas = len(set([x['Syllabus Area'] for x in all_data]))
-                st.metric("Syllabus Areas Covered", unique_syllabus_areas)
+                st.metric("Syllabus Areas Covered in All", unique_syllabus_areas)
             
             # Syllabus extraction details
             st.subheader("🔍 Syllabus Extraction Details")
